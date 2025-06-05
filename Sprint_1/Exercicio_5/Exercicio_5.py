@@ -1,0 +1,2 @@
+str = 'MATHEUS   '
+print(str)
