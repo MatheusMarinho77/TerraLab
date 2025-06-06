@@ -1,3 +1,5 @@
+#Exercicio que calcula a soma de dois numeros
+
 print('\n-----BEM VINDO A CALCULADORA SOMATORIA-----\n\n')
 print('Informe dois numeros inteiros para que eu possa soma-los e mostrar o resultado.\n')
 num1 = int(input('Informe o primeiro numero:'))

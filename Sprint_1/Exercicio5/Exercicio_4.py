@@ -1,3 +1,6 @@
+#Exercicio 4 que pede ao usuario para digitar 
+
+
 print('------Bem vindo ao programa que informa qual tipo foi digitado no teclado.\n------')
 tipo = input('Digite algo para verificarmos:')
 print('O {} é do tipo AlphaNumerico? '.format(tipo),tipo.isalnum())
