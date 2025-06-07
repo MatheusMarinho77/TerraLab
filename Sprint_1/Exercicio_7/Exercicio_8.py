@@ -1,8 +1,8 @@
 ## Programa que le o valor em metros e converte para centimetros e para milimetros 
 
 print('Informe a altura do predio: ')
-metros = float(input())
 
+metros = float(input())
 centimetros = float(metros * 100)
 milimetros = float(metros * 1000)
 

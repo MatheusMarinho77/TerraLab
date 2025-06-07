@@ -1,4 +1,4 @@
-
+#Quantidade de tintas para se limpar uma 
 
 largura = float(input('Informe a largura da parede:'))
 altura = float(input('Informe a altura da parede:'))

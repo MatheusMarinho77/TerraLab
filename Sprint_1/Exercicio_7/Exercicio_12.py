@@ -1,3 +1,5 @@
+#Desconto de 5% no tenis
+
 tenis = float(299.99)
 descontoTenis = float(tenis - (tenis * 0.05)) 
 
