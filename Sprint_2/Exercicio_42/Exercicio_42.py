@@ -10,9 +10,12 @@ if (reta1 + reta2 > reta3) and (reta1 + reta3 > reta2) and (reta2 + reta3 > reta
 
     if reta1 == reta2 and reta1 == reta3:
         print('O triângulo é EQUILÁTERO (todos os lados iguais).')
+
     elif (reta1 == reta2) or (reta1 == reta3) or (reta2 == reta3):
         print('O triângulo é ISÓSCELES (possui 2 lados iguais).')
+
     else:
         print('O triângulo é ESCALENO (todos os lados diferentes).')
+        
 else:
     print('NÃO é possível formar um triângulo com essas 3 retas.')
