@@ -8,5 +8,7 @@ reta1 = float(input('Comprimento da reta 1:'))
 reta2 = float(input('Comprimento da reta 2:'))
 reta3 = float(input('Comprimento da reta 3:'))
 
-if math.ceil(reta1,2) + math.ceil(reta2,2) < math.ceil(reta3,2):
-math.
+if (reta1 + reta2 <= reta3) or (reta1 + reta3 <= reta2) or (reta2 + reta3 <= reta1):
+    print('Nao é possivel formar um triangulo com essas 3 retas !!!')
+else :
+    print('É possivel fazer um triangulo com essas retas.')
