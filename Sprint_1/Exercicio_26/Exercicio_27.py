@@ -6,4 +6,4 @@ primeiroNome = nomeCompleto.split()
 ultimoNome = primeiroNome[len(primeiroNome) - 1]
 
 print('Primeiro nome é {}'.format(primeiroNome[0]))
-print('O seu ultimo nome {}'.format(ultimoNome))
+print('O seu ultimo nome {}'.format(ultimoNome.capitalize()))
