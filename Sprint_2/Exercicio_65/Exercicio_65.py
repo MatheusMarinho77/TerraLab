@@ -16,7 +16,7 @@ while continuar != False:
     elif numero < menor:
         menor = numero
     if contador >= 2:
-        validação = int(input('Deseja Continuar?\n\n SIM [1]\n NAO [0]')) 
+        validação = int(input('Deseja Continuar?\n\n SIM [1]\n NAO [0]\n')) 
         if validação == 1:
             continue
         elif validação == 0:
